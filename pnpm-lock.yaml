@@ -6,14 +6,14 @@ specifiers:
   '@vitejs/plugin-react-swc': ^3.0.0
   react: ^18.2.0
   react-dom: ^18.2.0
-  react-vim-wasm: ^0.1.4
   typescript: ^4.9.3
+  vim-wasm: ^0.0.13
   vite: ^4.1.0
 
 dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  react-vim-wasm: 0.1.4_biqbaboplfbrettd7655fr4n2y
+  vim-wasm: 0.0.13
 
 devDependencies:
   '@types/react': 18.0.28
@@ -461,17 +461,6 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
-    dev: false
-
-  /react-vim-wasm/0.1.4_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-Ly0AZHLrKqLsKNczP7gR5cDtQvC5v5bPs0/i9Wrbf/OCl1oWRxY9wW2V+ejRfMZ8huLlZoHNt9iAx6UDblwlUQ==}
-    peerDependencies:
-      react: ^16.8.0
-      react-dom: ^16.8.0
-    dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-      vim-wasm: 0.0.13
     dev: false
 
   /react/18.2.0:
